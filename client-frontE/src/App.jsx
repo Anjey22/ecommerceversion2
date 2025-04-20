@@ -2,7 +2,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import LoadingSpinner from "./components/LoadingSpinner";
 import HomePage from "./pages/HomePage";
-import Signup from "./pages/Signup";
+import SignUp from "./pages/SignUp";
 import LogIn from "./pages/Login";  
 import Admin from "./pages/Admin"; 
 import CategoryPage from "./pages/CategoryPage";
@@ -44,7 +44,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/signup" element={!user ? <Signup /> : <Navigate to="/" />} />
+          <Route path="/signup" element={!user ? <SignUp /> : <Navigate to="/" />} />
           <Route path="/login" element={!user ? <LogIn /> : <Navigate to="/" />} />
           <Route path="/admin" element={user?.role === "admin" ? <Admin /> : <Navigate to="/login" />} />
           <Route path="/category/:category" element={<CategoryPage />} />
