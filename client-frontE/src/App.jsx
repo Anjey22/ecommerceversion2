@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import LoadingSpinner from "./components/LoadingSpinner";
 import HomePage from "./pages/HomePage";
 import SignUp from "./pages/SignUp";
-import LogIn from "./pages/Login";  
+import LogIn from "./pages/LogIn";  
 import Admin from "./pages/Admin"; 
 import CategoryPage from "./pages/CategoryPage";
 import CartPage from "./pages/CartPage";
