@@ -2,7 +2,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import LoadingSpinner from "./components/LoadingSpinner";
 import HomePage from "./pages/HomePage";
-import SignUp from "./pages/Signup"; 
+import SignUp from "./pages/Signup";
 import LogIn from "./pages/Login";  
 import Admin from "./pages/Admin"; 
 import CategoryPage from "./pages/CategoryPage";
