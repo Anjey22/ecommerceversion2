@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import { userStore } from '../Stores/userStore.js';
 
 
-const SignUp = () => {
+const Signup = () => {
 
  
   const [formData, setFormData] = useState ({
@@ -162,4 +162,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp;
+export default Signup;
